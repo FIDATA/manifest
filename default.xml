@@ -2,12 +2,12 @@
 <manifest>
   <remote name="origin" fetch="https://github.com/FIDATA/" />
   <default remote="origin" revision="master" />
-  <project path="gradle-prerequisites-plugin" name="gradle-prerequisites-plugin" />
-  <project path="gradle-semantic-release-plugin" name="gradle-semantic-release-plugin" />
-  <project path="gradle-base-plugins" name="gradle-base-plugins" />
-  <project path="knife-solo-data-bag-java-library" name="knife-solo-data-bag-java-library" />
-  <project path="go-java-port" name="go-java-port" revision="develop" />
-  <project path="gradle-packer-plugin" name="gradle-packer-plugin" />
-  <project path="gradle-keygen-plugin" name="gradle-keygen-plugin" />
-  <project path="logogen" name="logogen" />
+  <project groups="build-toolbox" path="gradle-prerequisites-plugin" name="gradle-prerequisites-plugin" />
+  <project groups="build-toolbox" path="gradle-semantic-release-plugin" name="gradle-semantic-release-plugin" />
+  <project groups="build-toolbox" path="gradle-base-plugins" name="gradle-base-plugins" />
+  <project groups="devops" path="knife-solo-data-bag-java-library" name="knife-solo-data-bag-java-library" />
+  <project groups="devops" path="go-java-port" name="go-java-port" revision="develop" />
+  <project groups="devops" path="gradle-packer-plugin" name="gradle-packer-plugin" />
+  <project groups="devops" path="gradle-keygen-plugin" name="gradle-keygen-plugin" />
+  <project groups="docs" path="logogen" name="logogen" />
 </manifest>
