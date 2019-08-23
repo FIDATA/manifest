@@ -6,9 +6,9 @@
   <project groups="build-toolbox" name="gradle-semantic-release-plugin" />
   <project groups="build-toolbox" name="gradle-base-plugins" />
   <project groups="build-toolbox" name="jenkins-pipeline-shared-library" />
-  <project groups="devops" name="knife-solo-data-bag-java-library" />
+  <project groups="devops" name="knife-solo-data-bag-java-library" revision="develop" />
   <project groups="devops" name="go-java-port" revision="develop" />
-  <project groups="devops" name="gradle-packer-plugin" />
+  <project groups="devops" name="gradle-packer-plugin" revision="develop" />
   <project groups="devops" name="gradle-keygen-plugin" />
-  <project groups="docs" name="logogen" />
+  <project groups="docs" name="logogen" revision="develop" />
 </manifest>
